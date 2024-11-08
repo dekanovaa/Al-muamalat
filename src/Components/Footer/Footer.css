@@ -1,6 +1,8 @@
 .footer{
     background-color: #009688;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .footer_link{
     font-size: 16px;
@@ -13,4 +15,26 @@
 .footer_nav{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.fa-facebook-f,.fa-instagram,.fa-youtube,.fa-twitter{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer_wrap{
+    padding-bottom: 40px;
+  
+}
+.footer_hr{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    border: none;
+}
+.footer_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #CFD3D7;
+    padding-top: 40px;
 }

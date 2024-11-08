@@ -1,12 +1,18 @@
-import Footer from "../../Components/Footer/Footer"
+// import Footer from "../../Components/Footer/Footer"
 import Navbar from "../../Components/Navbar/Navbar"
+import Contact from "./Sections/Contact/Contact"
+import Header from "./Sections/Header/Header"
+import Service from "./Sections/Service/Service"
 
 
 function Homepage() {
   return (
     <div>
         <Navbar/>
-        <Footer/>
+        <Header/>
+        <Service/>
+        <Contact/>
+        {/* <Footer/> */}
     </div>
   )
 }
