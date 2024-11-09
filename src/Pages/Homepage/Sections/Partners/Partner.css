@@ -1,0 +1,26 @@
+.slider_wrap{
+    border: 1px solid #E1E1E1;
+    background-color: #F6F8F9;
+    width: 280px;
+    height: 74px;
+    border-radius: 10px;
+    padding: 32px 0;
+    text-align: center;
+    margin: 0 10px;
+
+}
+.partner_title{
+    color: #000000;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.partner{
+    padding-top: 110px;
+}
+.partner_slider{
+    display: flex;
+    align-items: center;
+}

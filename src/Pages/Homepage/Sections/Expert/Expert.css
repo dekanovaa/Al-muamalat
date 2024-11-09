@@ -1,0 +1,64 @@
+#expert_icon{
+    border-color: #141B34;
+    background-color: transparent;
+    font-size: 20px;
+}
+.expert_line{
+    gap: 30px;
+    display: flex;
+}
+.expert_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 830px;
+    height: 445px;
+    background-color: #D2E6E4;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.expert_title{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.expert_text{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #686868;
+    width: 574px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+}
+.expert_subtitle{
+    color: #141B34;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.expert_subtext{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #141B34;
+    padding-bottom: 30px;
+}
+.expert_wrapper{
+    padding-left: 60px;
+}
+.expert{
+    padding-top: 100px;
+}
+.expert_img{
+    width: 285px;
+    height: 375px;
+}
