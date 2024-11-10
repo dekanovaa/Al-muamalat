@@ -15,6 +15,7 @@ function Contact() {
                     <input type="text" placeholder='Name' id='name' />
                     <input type="phone" placeholder='+44' id='phone' />
                     <div className="form_line">
+                        <input type="checkbox" />
                         <p className='form_subtext'>I agree to the use of my personal information for consultation purposes.</p>
                     </div>
                     <button className='contact_btn'>Submit</button>

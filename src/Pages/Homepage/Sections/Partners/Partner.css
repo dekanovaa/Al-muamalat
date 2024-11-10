@@ -7,6 +7,11 @@
     padding: 32px 0;
     text-align: center;
     margin: 0 10px;
+    animation: marquee 10s linear infinite;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+   
 
 }
 .partner_title{
@@ -23,4 +28,14 @@
 .partner_slider{
     display: flex;
     align-items: center;
+
 }
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+

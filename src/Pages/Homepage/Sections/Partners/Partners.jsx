@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Partner.css'
 import skrill from '../../../../assets/Skrill.png'
 import stripe from '../../../../assets/Stripe.png'
@@ -27,6 +27,12 @@ function Partners() {
            <div className="slider_wrap">
             <img src={clarna} alt="Clarna" />
            </div>
+           <div className="slider_wrap">
+            <img src={skrill} alt="Skrill" />
+           </div>
+          
+           
+           
 
         </div>
         </div>
