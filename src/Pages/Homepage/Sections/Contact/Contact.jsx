@@ -1,6 +1,11 @@
 import './Contact.css'
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
+import { useState } from 'react'
+
 
 function Contact() {
+    const [value, setValue] = useState()
   return (
     <div className='contact'>
         <div className='container contact_container'>
@@ -12,8 +17,14 @@ function Contact() {
                 <form>
                     <h3 className='form_title'>Free consultation</h3>
                     <p className="form_text">Leave your phone number, and we will reach out to provide you with complete information about our courses. </p>
-                    <input type="text" placeholder='Name' id='name' />
-                    <input type="phone" placeholder='+44' id='phone' />
+                    <input type="text" placeholder='Name' id='name' required/>
+                   <div id='phone'>
+                   <PhoneInput
+                      required
+                     placeholder="Enter phone number"
+                     value={value}
+                     onChange={setValue}/>
+                   </div>
                     <div className="form_line">
                         <input type="checkbox" />
                         <p className='form_subtext'>I agree to the use of my personal information for consultation purposes.</p>

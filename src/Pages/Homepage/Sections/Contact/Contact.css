@@ -61,6 +61,14 @@
     margin-top: 20px;
     outline: none;
 }
+#phone{
+    padding-top: 17px;
+    height: 32px;
+}
+.PhoneInputInput{
+    border: none;
+    outline: none;
+}
 .form_subtext{
     font-size: 14px;
     line-height: 16px;
@@ -84,4 +92,5 @@
     font-weight: 700;
     color: white;
     border: none;
+    cursor: pointer;
 }

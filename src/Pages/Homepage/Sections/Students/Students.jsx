@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import student from '../../../../assets/student.png'
+import { Autoplay } from 'swiper/modules';
 
 function Students() {
   return (
@@ -16,10 +17,14 @@ function Students() {
         slidesPerView={4}
         spaceBetween={30}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
             clickable: true,
           }}
-        modules={[Pagination]}
+        modules={[Pagination,Autoplay]}
         className="mySwiper"
       >
        <SwiperSlide id='student_slide' >

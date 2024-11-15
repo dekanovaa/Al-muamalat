@@ -39,6 +39,7 @@
     font-size: 15px;
     font-weight: 600;
     border: none;
+    outline: none;
 }
 .navbar_btn{
     width: 110px;
@@ -49,6 +50,7 @@
     font-size: 15px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 .navbar_wrap{
     display: flex;
